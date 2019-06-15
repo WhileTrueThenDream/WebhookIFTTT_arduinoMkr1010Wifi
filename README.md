@@ -30,12 +30,12 @@ In file iftttWebhook.cpp
 
 
 IFFT API 
-1.-IFTT Key:
+-IFTT Key:
 Go to:
 https://ifttt.com/maker_webhooks 
 and press "documentation" 
 
-2.-IFTT Trigger:
+-IFTT Trigger:
 Go to
 https://ifttt.com/applets/ 
 and elect the "Webhook"
