@@ -10,12 +10,11 @@ HW:  arduino Wifi mkr1010
 - It is required to open an IFTT account and configure a "Webhook" that sends an e-mail when an event is triggered
 - Arduino just makes a HTTP request to IFTT server and there 
 
-- Code is c-oriented although files are .cpp 
 ******************************************************************************************************************************
 ## Dependencies:
 
- <WiFiNINA.h>
- <ArduinoHttpClient.h>
+-  <WiFiNINA.h>
+-  <ArduinoHttpClient.h>
 
 ******************************************************************************************************************************
 ## Configuration, defines
@@ -30,30 +29,34 @@ In file iftttWebhook.cpp
 - #define KEY "yyyyyyyyyyy"                                     /* IFTTT Key */
 
 
-(*)
-IFTT Key:
-press "documentation" in 
+
+- IFTT Key:
+Go to:
 https://ifttt.com/maker_webhooks 
+and press "documentation" 
 
-IFTT Trigger:
+- IFTT Trigger:
+Go to
 https://ifttt.com/applets/ 
-Select the "Webhook"
+and elect the "Webhook"
 
-(*)IFTT Webhook to be configured in iftt site, see instructions there
+- Docu: 
+IFTT Webhook to be configured in iftt site, see instructions there
 ******************************************************************************************************************************
 ## API
 
 int SendIFTTTWebhookRequest(WiFiSSLClient client, int value1, float value2, char* str_value3);
 Values to be received in your e-mail triggered by a Webhook event:
-value1: integer value to be sent 
-value2: float value to be sent
-value3: text to be sent3
+- value1: integer value to be sent 
+- value2: float value to be sent
+- value3: text to be sent3
 
 ******************************************************************************************************************************
 ## DISCLAIMER: 
 - These are the sources for my hobby project
 - Not fully tested
 - If you find bugs I'm eager to receive your feedback
+- Code is c-oriented although files are .cpp 
 ******************************************************************************************************************************
 ## Contact
  whiletruethendream@gmail.com
