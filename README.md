@@ -1,5 +1,4 @@
 # WebhookIFTTT
-WebhookIFTTT
 ******************************************************************************************************************************
 Last revision : 15.06.2019
 
@@ -15,28 +14,27 @@ What does code do?
 ******************************************************************************************************************************
 Dependencies:
 
-#include <WiFiNINA.h>
-#include <ArduinoHttpClient.h>
+ <WiFiNINA.h>
+ <ArduinoHttpClient.h>
 
-- Make sure libs are installed
 ******************************************************************************************************************************
 In file main.c, defines to be changed:
 
-#define SSID     "xxxxxxxxxx"             /* Wifi router SSID */
-#define	PASSWORD "yyyyyyyyyy"             /* Wifi router password */
+- #define SSID     "xxxxxxxxxx"             /* Wifi router SSID */
+- #define	PASSWORD "yyyyyyyyyy"             /* Wifi router password */
 
 In file iftttWebhook.cpp
 
-#define TRIGGER_NAME "xxxxxxxxxxxxxxxxx"                      /* IFTTT Trigger name */
-#define KEY "yyyyyyyyyyy"                                     /* IFTTT Key */
+- #define TRIGGER_NAME "xxxxxxxxxxxxxxxxx"                      /* IFTTT Trigger name */
+- #define KEY "yyyyyyyyyyy"                                     /* IFTTT Key */
 
 
 (*)
-IFTT Key 
+IFTT Key:
 press "documentation" in 
 https://ifttt.com/maker_webhooks 
 
-IFTT Trigger
+IFTT Trigger:
 https://ifttt.com/applets/ 
 Select the "Webhook"
 
