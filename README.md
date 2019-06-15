@@ -29,13 +29,13 @@ In file iftttWebhook.cpp
 - #define KEY "yyyyyyyyyyy"                                     /* IFTTT Key */
 
 
-IFFT API 
--IFTT Key:
+IFFT API:
+- IFTT Key:
 Go to:
 https://ifttt.com/maker_webhooks 
 and press "documentation" 
 
--IFTT Trigger:
+- IFTT Trigger:
 Go to
 https://ifttt.com/applets/ 
 and elect the "Webhook"
