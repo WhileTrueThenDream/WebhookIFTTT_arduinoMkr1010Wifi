@@ -13,6 +13,13 @@ What does code do?
 
 - Code is c-oriented although files are .cpp 
 ******************************************************************************************************************************
+Dependencies:
+
+#include <WiFiNINA.h>
+#include <ArduinoHttpClient.h>
+
+- Make sure libs are installed
+******************************************************************************************************************************
 In file main.c, defines to be changed:
 
 #define SSID     "xxxxxxxxxx"             /* Wifi router SSID */
