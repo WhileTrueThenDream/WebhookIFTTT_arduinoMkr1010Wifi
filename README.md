@@ -18,7 +18,7 @@ Dependencies:
  <ArduinoHttpClient.h>
 
 ******************************************************************************************************************************
-In file main.c, defines to be changed:
+In file main.ino, defines to be changed:
 
 - #define SSID     "xxxxxxxxxx"             /* Wifi router SSID */
 - #define	PASSWORD "yyyyyyyyyy"             /* Wifi router password */
