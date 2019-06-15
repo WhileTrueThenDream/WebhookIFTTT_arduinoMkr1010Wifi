@@ -56,4 +56,6 @@ value3: text to be sent3
 - If you find bugs I'm eager to receive your feedback
 ******************************************************************************************************************************
 ## Contact
-amaia if you wanna contact me: whiletruethendream@gmail.com
+ whiletruethendream@gmail.com
+ ******************************************************************************************************************************
+ amaia
