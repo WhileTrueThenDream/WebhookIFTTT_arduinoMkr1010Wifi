@@ -4,7 +4,7 @@ Last revision : 15.06.2019
 
 HW:  arduino Wifi mkr1010
 ******************************************************************************************************************************
-What does code do?
+## Features
 - This sources provide a method to send an e-mail when the arduino triggers an event. 
 - The mail is sent via the IFTT service.
 - It is required to open an IFTT account and configure a "Webhook" that sends an e-mail when an event is triggered
@@ -12,12 +12,13 @@ What does code do?
 
 - Code is c-oriented although files are .cpp 
 ******************************************************************************************************************************
-Dependencies:
+## Dependencies:
 
  <WiFiNINA.h>
  <ArduinoHttpClient.h>
 
 ******************************************************************************************************************************
+## Configuration, defines
 In file main.ino, defines to be changed:
 
 - #define SSID     "xxxxxxxxxx"             /* Wifi router SSID */
@@ -39,6 +40,11 @@ https://ifttt.com/applets/
 Select the "Webhook"
 
 (*)IFTT Webhook to be configured in iftt site, see instructions there
-
 ******************************************************************************************************************************
+## DISCLAIMER: 
+- These are the sources for my hobby project
+- Not fully tested
+- If you find bugs I'm eager to receive your feedback
+******************************************************************************************************************************
+## Contact
 amaia if you wanna contact me: whiletruethendream@gmail.com
