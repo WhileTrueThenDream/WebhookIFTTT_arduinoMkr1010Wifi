@@ -41,7 +41,7 @@ Select the "Webhook"
 
 (*)IFTT Webhook to be configured in iftt site, see instructions there
 ******************************************************************************************************************************
-##API
+## API
 
 int SendIFTTTWebhookRequest(WiFiSSLClient client, int value1, float value2, char* str_value3);
 Values to be received in your e-mail triggered by a Webhook event:
