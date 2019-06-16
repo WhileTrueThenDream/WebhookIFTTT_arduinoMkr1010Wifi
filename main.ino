@@ -1,6 +1,5 @@
 
 #include <WiFiNINA.h>
-#include <ArduinoHttpClient.h>
 
 #include "iftttWebhook.h"
 
