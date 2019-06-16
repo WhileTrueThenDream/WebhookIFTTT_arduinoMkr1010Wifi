@@ -2,7 +2,6 @@
 #define _H_IFTTTWEBHOOK_
 
 #include <WiFiNINA.h>
-#include <ArduinoHttpClient.h>
 
 #define DEBUG_MSG 1
 
