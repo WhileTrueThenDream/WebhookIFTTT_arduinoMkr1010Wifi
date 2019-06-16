@@ -14,7 +14,6 @@ HW:  arduino Wifi mkr1010
 ## Dependencies:
 
 -  <WiFiNINA.h>
--  <ArduinoHttpClient.h>
 
 ******************************************************************************************************************************
 ## Configuration, defines
