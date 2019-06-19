@@ -1,8 +1,8 @@
-# WebhookIFTTT for Arduino Wifi MKR1010
+# WebhookIFTTT for Arduino MKR Wifi1010
 ******************************************************************************************************************************
 Last revision : 15.06.2019
 
-HW:  arduino Wifi1010 mkr
+HW:  arduino mkr Wifi1010 
 ******************************************************************************************************************************
 ## Features
 - This sources provide a method to send an e-mail when the arduino triggers an event. 
